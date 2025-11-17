@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
   <diagram name="Page-1" id="QHNKFVBcSDYnJB89UEEq">
-    <mxGraphModel dx="1532" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1322" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
         <mxCell id="idNz33qkB0Y7rEgG5aRM-69" value="Send Credentials" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=10;" vertex="1" parent="lLmeaj6Tr0OphUNWHHto-3">
           <mxGeometry x="13.75" y="130" width="92.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="idNz33qkB0Y7rEgG5aRM-81" value="Send File" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=10;" vertex="1" parent="lLmeaj6Tr0OphUNWHHto-3">
+        <mxCell id="idNz33qkB0Y7rEgG5aRM-81" value="Send File to Django" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=10;" vertex="1" parent="lLmeaj6Tr0OphUNWHHto-3">
           <mxGeometry x="20" y="280" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="idNz33qkB0Y7rEgG5aRM-95" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="lLmeaj6Tr0OphUNWHHto-3" source="idNz33qkB0Y7rEgG5aRM-14" target="idNz33qkB0Y7rEgG5aRM-19">
