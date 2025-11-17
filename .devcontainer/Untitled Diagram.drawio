@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
   <diagram name="Page-1" id="QHNKFVBcSDYnJB89UEEq">
-    <mxGraphModel dx="1211" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1077" dy="348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,17 +58,32 @@
         <mxCell id="idNz33qkB0Y7rEgG5aRM-77" value="Validate&amp;nbsp;&lt;div&gt;Credentials&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=10;" vertex="1" parent="lLmeaj6Tr0OphUNWHHto-4">
           <mxGeometry x="16.25" y="130" width="92.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="idNz33qkB0Y7rEgG5aRM-103" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="lLmeaj6Tr0OphUNWHHto-4" source="idNz33qkB0Y7rEgG5aRM-98" target="idNz33qkB0Y7rEgG5aRM-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="idNz33qkB0Y7rEgG5aRM-98" value="Processes CSV" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=10;" vertex="1" parent="lLmeaj6Tr0OphUNWHHto-4">
+          <mxGeometry x="22.5" y="280" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="idNz33qkB0Y7rEgG5aRM-99" value="Run Prophet Model" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=10;" vertex="1" parent="lLmeaj6Tr0OphUNWHHto-4">
+          <mxGeometry x="16.25" y="340" width="92.5" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="idNz33qkB0Y7rEgG5aRM-58" value="Database" style="swimlane;startSize=20;html=1;" vertex="1" parent="lLmeaj6Tr0OphUNWHHto-1">
           <mxGeometry x="364.99999999999955" y="20" width="124.99999999999955" height="810" as="geometry" />
         </mxCell>
         <mxCell id="idNz33qkB0Y7rEgG5aRM-53" value="Account Available?" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" vertex="1" parent="idNz33qkB0Y7rEgG5aRM-58">
           <mxGeometry x="7.500000000000455" y="180" width="50" as="geometry" />
         </mxCell>
-        <mxCell id="idNz33qkB0Y7rEgG5aRM-52" value="Read Python Script" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=10;" vertex="1" parent="idNz33qkB0Y7rEgG5aRM-58">
-          <mxGeometry x="7.5" y="340" width="110" height="30" as="geometry" />
+        <mxCell id="idNz33qkB0Y7rEgG5aRM-105" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="idNz33qkB0Y7rEgG5aRM-58" source="idNz33qkB0Y7rEgG5aRM-52" target="idNz33qkB0Y7rEgG5aRM-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="idNz33qkB0Y7rEgG5aRM-52" value="PostgreSQL stores structured data" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=10;" vertex="1" parent="idNz33qkB0Y7rEgG5aRM-58">
+          <mxGeometry x="7.5" y="380" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="idNz33qkB0Y7rEgG5aRM-20" value="Verify Account" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=10;" vertex="1" parent="idNz33qkB0Y7rEgG5aRM-58">
           <mxGeometry x="7.500000000000455" y="130" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="idNz33qkB0Y7rEgG5aRM-100" value="MongoDB stores ML metadata" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=10;" vertex="1" parent="idNz33qkB0Y7rEgG5aRM-58">
+          <mxGeometry x="7.500000000000455" y="440" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="idNz33qkB0Y7rEgG5aRM-64" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="lLmeaj6Tr0OphUNWHHto-1" source="idNz33qkB0Y7rEgG5aRM-19" target="idNz33qkB0Y7rEgG5aRM-59">
           <mxGeometry relative="1" as="geometry">
@@ -114,6 +129,16 @@
             <Array as="points">
               <mxPoint x="10" y="225" />
               <mxPoint x="10" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="idNz33qkB0Y7rEgG5aRM-102" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="lLmeaj6Tr0OphUNWHHto-1" source="idNz33qkB0Y7rEgG5aRM-81" target="idNz33qkB0Y7rEgG5aRM-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="idNz33qkB0Y7rEgG5aRM-104" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="lLmeaj6Tr0OphUNWHHto-1" source="idNz33qkB0Y7rEgG5aRM-99" target="idNz33qkB0Y7rEgG5aRM-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="427" y="375" />
             </Array>
           </mxGeometry>
         </mxCell>
