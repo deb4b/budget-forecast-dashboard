@@ -226,7 +226,7 @@
           <mxGeometry x="35" y="260" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YY80MIQz114uuGThQ2Rj-17" value="SCNumber = null &amp;amp;&amp;amp;&lt;div&gt;AccrualStatus = &quot;Confirm Accrue or Not&quot; &amp;amp;&amp;amp; UserResponse = null&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="idNz33qkB0Y7rEgG5aRM-118">
-          <mxGeometry y="210" width="60" as="geometry" />
+          <mxGeometry y="190" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YY80MIQz114uuGThQ2Rj-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="idNz33qkB0Y7rEgG5aRM-21" source="YY80MIQz114uuGThQ2Rj-2" target="idNz33qkB0Y7rEgG5aRM-28">
           <mxGeometry relative="1" as="geometry" />
