@@ -115,9 +115,6 @@
         <mxCell id="idNz33qkB0Y7rEgG5aRM-53" value="Account Available?" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" parent="idNz33qkB0Y7rEgG5aRM-58" vertex="1">
           <mxGeometry x="7.500000000000455" y="340" width="50" as="geometry" />
         </mxCell>
-        <mxCell id="idNz33qkB0Y7rEgG5aRM-52" value="PostgreSQL stores structured data" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=10;" parent="idNz33qkB0Y7rEgG5aRM-58" vertex="1">
-          <mxGeometry x="7.5" y="560" width="110" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="idNz33qkB0Y7rEgG5aRM-20" value="Verify Credentials" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontSize=10;" parent="idNz33qkB0Y7rEgG5aRM-58" vertex="1">
           <mxGeometry x="7.500000000000455" y="290" width="110" height="30" as="geometry" />
         </mxCell>
@@ -184,9 +181,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="idNz33qkB0Y7rEgG5aRM-102" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" parent="lLmeaj6Tr0OphUNWHHto-1" source="idNz33qkB0Y7rEgG5aRM-81" target="idNz33qkB0Y7rEgG5aRM-98" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="idNz33qkB0Y7rEgG5aRM-107" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" parent="lLmeaj6Tr0OphUNWHHto-1" source="idNz33qkB0Y7rEgG5aRM-106" target="idNz33qkB0Y7rEgG5aRM-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="idNz33qkB0Y7rEgG5aRM-111" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" parent="lLmeaj6Tr0OphUNWHHto-1" source="idNz33qkB0Y7rEgG5aRM-109" target="idNz33qkB0Y7rEgG5aRM-75" edge="1">
